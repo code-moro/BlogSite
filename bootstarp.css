@@ -1,0 +1,56 @@
+body{
+ overflow-x: hidden;
+ color: 505962;   
+}
+.navbar
+{
+text-transform: uppercase;
+font-weight: 700;
+font-size: .9rem;
+/*display: none!important;*/
+letter-spacing: .1rem;
+background: rgba(0,0,0,.6)!important;
+}
+.navbar-brand{
+ padding-left:3rem;   
+}
+.navbar-nav li{
+    padding-right: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+color:white !important;
+padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+color: #1ebba3 !important;
+}
+.carousel-item img{
+    height: 95vh;
+    width: 80vw;
+}
+.carousel-caption{
+ margin-bottom: 12rem;
+ text-transform: uppercase;   
+}
+.carousel-caption h1
+{
+font-size: 3.8rem;
+font-weight: 500;
+text-shadow: .1rem .1rem .8rem black;
+padding-bottom: .5rem;
+}
+.carousel-caption h3
+{
+font-size: 2rem;
+text-shadow: .1rem .1rem .5rem black;
+padding-bottom: 1.6rem;
+}
+.btn-lg
+{
+border-width: medium;
+border-radius: 0;
+font-size: 1.1rem;    
+}
